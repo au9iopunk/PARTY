@@ -1,0 +1,145 @@
+@import url(./fonts.css);
+
+* {
+    box-sizing: border-box;
+    font-family: "PT Sans";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Golos;
+    color: rgb(78, 109, 134);
+    ;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-background {
+    background-color: white;
+}
+
+.section-background2 {
+    background-color: rgb(206, 223, 237);
+}
+
+.section-background3 {
+    background-color: rgb(239, 213, 234);
+}
+
+.section-background4 {
+    background: -webkit-linear-gradient(172deg, #635ea1, #e59adf);
+    background: linear-gradient(172deg, #635ea1, #e59adf);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.logo img {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 109, 134);
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+i {
+    color: #b26fa9;
+}
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b26fa9;
+}
+
+.navigation {
+    display: flex;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.block a {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e59adf;
+    margin: 30px 0px 0px 0px;
+}
+
+.section-background2 .place .block a {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 127, 192);
+    margin: 30px 0px 0px 0px;
+}
+
+.section-background .place .block a {
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(138, 101, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #635ea1;
+    background-color: white;
+    margin: 30px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.block {
+    margin: 20px 0px 20px 0px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 40px 0px;
+}
+
+.place {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.Bold {
+    font-weight: bold;
+}

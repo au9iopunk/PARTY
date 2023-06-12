@@ -1,0 +1,118 @@
+@import url(./fonts.css);
+
+* {
+    box-sizing: border-box;
+    font-family: "PT Sans";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Golos;
+    color: rgb(78, 109, 134);
+    ;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-background {
+    background-color: white;
+}
+
+.section-background2 {
+    background-color: rgb(206, 223, 237);
+}
+
+.section-background3 {
+    background-color: rgb(239, 213, 234);
+}
+
+.section-background4 {
+    background: -webkit-linear-gradient(172deg, #635ea1, #e59adf);
+    background: linear-gradient(172deg, #635ea1, #e59adf);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+.logo img {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 109, 134);
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+i {
+    color: #b26fa9;
+}
+
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b26fa9;
+}
+
+.navigation {
+    display: flex;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 50px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+h2{
+    margin: 20px 0px 20px 0px;
+}
+input{
+    width: 400px;
+    border-radius: 8px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid  #e59adf ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+select{
+    width: 400px;
+    border-radius: 8px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid  #e59adf ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form a{
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    border:1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e59adf;
+    margin: 30px 0px 0px 70px;
+}
+.pole{
+    margin: 50px;
+}
